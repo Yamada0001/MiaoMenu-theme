@@ -1,0 +1,58 @@
+title: "&d&l春日樱花"
+external_title: "&dMiaoMenu · 春"
+can_close_with_escape: true
+pause: false
+after_action: close
+
+layout:
+  type: multi_action
+  columns: 2
+  exit_button:
+    label: "&c关闭"
+    tooltip: "&7回到游戏"
+    width: 100
+
+body:
+  - type: text
+    text: "&f欢迎，&e%player_name%&f。"
+    width: 320
+  - type: item
+    material: "image:spring_sakura"
+    display_name: "&d&l春日樱花"
+    description: "&7四季主题 · 春"
+    show_decorations: true
+    show_tooltip: true
+    width: 32
+    height: 32
+
+buttons:
+  - label: "&a打个招呼"
+    item: CHERRY_SAPLING
+    tooltip: "&7发送一句与主题相关的问候"
+    width: 150
+    actions:
+      - "[message] &d樱花飘落，春天来了。"
+
+  - label: "&b打开背包菜单"
+    item: BUNDLE
+    tooltip: "&7打开同名 Java 菜单"
+    width: 150
+    actions:
+      - "[menu] java:theme-spring"
+
+dynamic_lists:
+  - source: online_players
+    label: "&d玩家: &f$(display)"
+    tooltip: "&7向 $(value) 问好"
+    width: 150
+    limit: 10
+    sort: true
+    empty_label: "&7当前没有其他在线玩家"
+    actions:
+      - "[player] msg $(value) 春日快乐！"
+
+view_requirement:
+  deny_message: "&c你当前还不能打开这个菜单。"
+  requirements:
+    - type: permission
+      permission: dgeysermenu.use

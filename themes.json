@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "themes": [
+    {
+      "id": "spring_sakura",
+      "name": "春日樱花",
+      "description": "樱花飘落的春季主题，含粉樱树与花瓣粒子",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-spring",
+        "dialog": "theme-spring"
+      },
+      "files": [
+        {
+          "source": "themes/spring_sakura/java_menus/theme-spring.yml",
+          "target": "java_menus/theme-spring.yml",
+          "sha256": "c122c45ed7b66b4d678231cafa48f249f2008e8a126ff9d53edf049fb97ac0ea"
+        },
+        {
+          "source": "themes/spring_sakura/dialog_menus/theme-spring.yml",
+          "target": "dialog_menus/theme-spring.yml",
+          "sha256": "1e7b8264b13350d2a495bc9fce4112d874fafa09be5bbed0e098062acf8257f8"
+        },
+        {
+          "source": "themes/spring_sakura/pack/assets/miaomenu/textures/gui/sprites/menu/spring_sakura.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/spring_sakura.png",
+          "sha256": "dd3dc658aa97a16364af7042a9e9b258e7e587b5f9030dd78934d69bf6b24b71"
+        },
+        {
+          "source": "themes/spring_sakura/pack/assets/miaomenu/models/menu/spring_sakura.json",
+          "target": "themes/assets/miaomenu/models/menu/spring_sakura.json",
+          "sha256": "d3aaf42d31c5026f8d0fade915f5210f5891283d47b7bafe595e37e522022895"
+        }
+      ]
+    },
+    {
+      "id": "summer_beach",
+      "name": "夏日海滩",
+      "description": "阳光海滩主题，含椰子树、遮阳伞与海浪",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-summer",
+        "dialog": "theme-summer"
+      },
+      "files": [
+        {
+          "source": "themes/summer_beach/java_menus/theme-summer.yml",
+          "target": "java_menus/theme-summer.yml",
+          "sha256": "477c51eb046b1fd90748c8d04030d1c6599a6582bb6aa060f4fa64abb99cb5a9"
+        },
+        {
+          "source": "themes/summer_beach/dialog_menus/theme-summer.yml",
+          "target": "dialog_menus/theme-summer.yml",
+          "sha256": "d12355a72eab6f844be8b5a2a5cb77be77983679f81989f5c4551d1fe50aa7b2"
+        },
+        {
+          "source": "themes/summer_beach/pack/assets/miaomenu/textures/gui/sprites/menu/summer_beach.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/summer_beach.png",
+          "sha256": "85eb2e041c5233ded1edfac4978a408ce78a4781c8b37f42958cbf95f9aa0b29"
+        },
+        {
+          "source": "themes/summer_beach/pack/assets/miaomenu/models/menu/summer_beach.json",
+          "target": "themes/assets/miaomenu/models/menu/summer_beach.json",
+          "sha256": "2a5ff076d810cd4b489a871ec7586e1b4d3b4e556579afab6becd2eaf38942c8"
+        }
+      ]
+    },
+    {
+      "id": "autumn_forest",
+      "name": "秋日森林",
+      "description": "秋日森林主题，含落叶树与蘑菇",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-autumn",
+        "dialog": "theme-autumn"
+      },
+      "files": [
+        {
+          "source": "themes/autumn_forest/java_menus/theme-autumn.yml",
+          "target": "java_menus/theme-autumn.yml",
+          "sha256": "d179f254a886209811e9d595b10da69f00cfe4f78e61075f5275f7eceea82b1c"
+        },
+        {
+          "source": "themes/autumn_forest/dialog_menus/theme-autumn.yml",
+          "target": "dialog_menus/theme-autumn.yml",
+          "sha256": "603ce9f1497637d5e39f7a1ea26d93e080d6c4ce07f65c6b8ba723da03c3f9ab"
+        },
+        {
+          "source": "themes/autumn_forest/pack/assets/miaomenu/textures/gui/sprites/menu/autumn_forest.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/autumn_forest.png",
+          "sha256": "52209c888d6b453f375581ca86b32dcb260f84390b2b586e95ab8d9bb0f558ef"
+        },
+        {
+          "source": "themes/autumn_forest/pack/assets/miaomenu/models/menu/autumn_forest.json",
+          "target": "themes/assets/miaomenu/models/menu/autumn_forest.json",
+          "sha256": "1e586af53c4569b2ca8109d9bb4f387e75153c896e1b22bf6ee11e37235fa581"
+        }
+      ]
+    },
+    {
+      "id": "winter_snow",
+      "name": "冬季飘雪",
+      "description": "雪夜松林主题，含积雪松树与雪花",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-winter",
+        "dialog": "theme-winter"
+      },
+      "files": [
+        {
+          "source": "themes/winter_snow/java_menus/theme-winter.yml",
+          "target": "java_menus/theme-winter.yml",
+          "sha256": "8a9db77fc6e7f804d24ab17b70e0c830b5e8485b6363b772a1ed85b4ae48b420"
+        },
+        {
+          "source": "themes/winter_snow/dialog_menus/theme-winter.yml",
+          "target": "dialog_menus/theme-winter.yml",
+          "sha256": "62bec8ee37431f04ceb306fa9fea7fe967b3575ea0e3654f315969c5e953db30"
+        },
+        {
+          "source": "themes/winter_snow/pack/assets/miaomenu/textures/gui/sprites/menu/winter_snow.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/winter_snow.png",
+          "sha256": "c955b6a95c93646af6a1f27121f2396491866bc06d5b87b34acdffb40266f62d"
+        },
+        {
+          "source": "themes/winter_snow/pack/assets/miaomenu/models/menu/winter_snow.json",
+          "target": "themes/assets/miaomenu/models/menu/winter_snow.json",
+          "sha256": "b00593a1edb350cd161305e8aa082f47f5cef95a3a1f6126f577d7f1b7973e5c"
+        }
+      ]
+    }
+  ]
+}
