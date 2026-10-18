@@ -1,0 +1,58 @@
+title: "&2&l端午节"
+external_title: "&2MiaoMenu · 端午"
+can_close_with_escape: true
+pause: false
+after_action: close
+
+layout:
+  type: multi_action
+  columns: 2
+  exit_button:
+    label: "&c关闭"
+    tooltip: "&7回到游戏"
+    width: 100
+
+body:
+  - type: text
+    text: "&f欢迎，&e%player_name%&f。"
+    width: 320
+  - type: item
+    material: "image:dragon_boat"
+    display_name: "&2&l端午节"
+    description: "&7节日主题 · 端午"
+    show_decorations: true
+    show_tooltip: true
+    width: 32
+    height: 32
+
+buttons:
+  - label: "&a送上祝福"
+    item: OAK_BOAT
+    tooltip: "&7发送一句节日问候"
+    width: 150
+    actions:
+      - "[message] &2端午安康，龙舟争先。"
+
+  - label: "&b打开背包菜单"
+    item: BUNDLE
+    tooltip: "&7打开同名 Java 菜单"
+    width: 150
+    actions:
+      - "[menu] java:theme-dragonboat"
+
+dynamic_lists:
+  - source: online_players
+    label: "&2玩家: &f$(display)"
+    tooltip: "&7向 $(value) 问好"
+    width: 150
+    limit: 10
+    sort: true
+    empty_label: "&7当前没有其他在线玩家"
+    actions:
+      - "[player] msg $(value) &2端午安康，龙舟争先。"
+
+view_requirement:
+  deny_message: "&c你当前还不能打开这个菜单。"
+  requirements:
+    - type: permission
+      permission: dgeysermenu.use

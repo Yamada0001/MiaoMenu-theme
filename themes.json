@@ -128,6 +128,422 @@
           "sha256": "b00593a1edb350cd161305e8aa082f47f5cef95a3a1f6126f577d7f1b7973e5c"
         }
       ]
+    },
+    {
+      "id": "new_year",
+      "name": "元旦",
+      "description": "跨年钟声、雪夜烟花与礼物",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-newyear",
+        "dialog": "theme-newyear"
+      },
+      "files": [
+        {
+          "source": "themes/new_year/java_menus/theme-newyear.yml",
+          "target": "java_menus/theme-newyear.yml",
+          "sha256": "c61f819cf6fdffd633fd2d81cfe14657ec05cecbe99e9d13fff2cc9e06ec0147"
+        },
+        {
+          "source": "themes/new_year/dialog_menus/theme-newyear.yml",
+          "target": "dialog_menus/theme-newyear.yml",
+          "sha256": "fe70e6d2c4e4eab3d08c4cbbfe17a0f2f03db95d81a0380623247d455f87ce88"
+        },
+        {
+          "source": "themes/new_year/pack/assets/miaomenu/textures/gui/sprites/menu/new_year.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/new_year.png",
+          "sha256": "745d6c81a03b60215b6291f14569d898f457ae9e2ce3494f2a3e255b6ba47f5a"
+        },
+        {
+          "source": "themes/new_year/pack/assets/miaomenu/models/menu/new_year.json",
+          "target": "themes/assets/miaomenu/models/menu/new_year.json",
+          "sha256": "26359032e93a774575ac1aee7547c475f65f5d3c3b78cfa2d428ae4063fc734f"
+        }
+      ]
+    },
+    {
+      "id": "spring_festival",
+      "name": "春节",
+      "description": "红灯笼、舞龙与满地爆竹红纸",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-springfest",
+        "dialog": "theme-springfest"
+      },
+      "files": [
+        {
+          "source": "themes/spring_festival/java_menus/theme-springfest.yml",
+          "target": "java_menus/theme-springfest.yml",
+          "sha256": "c3487eb1d8ac2f362a26e7a79f39a87955bfb7f2cb33ec1b1f559a8323bcd1fb"
+        },
+        {
+          "source": "themes/spring_festival/dialog_menus/theme-springfest.yml",
+          "target": "dialog_menus/theme-springfest.yml",
+          "sha256": "c50ea737e0ff906135ef284b7db2286cce43c71f94c50afa5b179fbdf49c37fb"
+        },
+        {
+          "source": "themes/spring_festival/pack/assets/miaomenu/textures/gui/sprites/menu/spring_festival.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/spring_festival.png",
+          "sha256": "05d8382875a810951420746a49683fe4e4ada6b526a6dbe6b2757e1dfa7dd0e1"
+        },
+        {
+          "source": "themes/spring_festival/pack/assets/miaomenu/models/menu/spring_festival.json",
+          "target": "themes/assets/miaomenu/models/menu/spring_festival.json",
+          "sha256": "3b537f9124999d570c6c9beb2c523d52239d6011ebfba3267a382b1269ef5728"
+        }
+      ]
+    },
+    {
+      "id": "lantern_festival",
+      "name": "元宵节",
+      "description": "河灯、花灯与满月",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-lantern",
+        "dialog": "theme-lantern"
+      },
+      "files": [
+        {
+          "source": "themes/lantern_festival/java_menus/theme-lantern.yml",
+          "target": "java_menus/theme-lantern.yml",
+          "sha256": "0788e8569f644d637d58cc0fc7b2adbc163bf13459b90006949a38466f41be7a"
+        },
+        {
+          "source": "themes/lantern_festival/dialog_menus/theme-lantern.yml",
+          "target": "dialog_menus/theme-lantern.yml",
+          "sha256": "bfceb31e6b4f0803f3beeb49db51a941cd77ae92fd9721674f519d943b88de5c"
+        },
+        {
+          "source": "themes/lantern_festival/pack/assets/miaomenu/textures/gui/sprites/menu/lantern_festival.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/lantern_festival.png",
+          "sha256": "1add6a6a32779b0b7c6a93f8a29c5c42e53d0d79eac64b286f557bf13185dcaa"
+        },
+        {
+          "source": "themes/lantern_festival/pack/assets/miaomenu/models/menu/lantern_festival.json",
+          "target": "themes/assets/miaomenu/models/menu/lantern_festival.json",
+          "sha256": "10ec79e7780adf67ca4a5fa3d1e9cfcc9e6dd754da74b70bf33d16a94e032fe1"
+        }
+      ]
+    },
+    {
+      "id": "qingming",
+      "name": "清明节",
+      "description": "细雨、垂柳与青绿山野",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-qingming",
+        "dialog": "theme-qingming"
+      },
+      "files": [
+        {
+          "source": "themes/qingming/java_menus/theme-qingming.yml",
+          "target": "java_menus/theme-qingming.yml",
+          "sha256": "f322d04b76a1e26b457da63b7610242e5857e2509f013d59c59613cb5dfc5873"
+        },
+        {
+          "source": "themes/qingming/dialog_menus/theme-qingming.yml",
+          "target": "dialog_menus/theme-qingming.yml",
+          "sha256": "69c6478ab69e04a401fb17fac43b35f622391d41389afd986df631d2474669c5"
+        },
+        {
+          "source": "themes/qingming/pack/assets/miaomenu/textures/gui/sprites/menu/qingming.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/qingming.png",
+          "sha256": "ffb76e5e727c81d8858cda8f5811ddf0904ca03286fdd4351778ea6cd16bfbd8"
+        },
+        {
+          "source": "themes/qingming/pack/assets/miaomenu/models/menu/qingming.json",
+          "target": "themes/assets/miaomenu/models/menu/qingming.json",
+          "sha256": "2d38ef62f446b7be9ec2e7533e635291f24bc894b1d38bf90e7628f21b10a967"
+        }
+      ]
+    },
+    {
+      "id": "dragon_boat",
+      "name": "端午节",
+      "description": "龙舟竞渡与粽叶飘香",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-dragonboat",
+        "dialog": "theme-dragonboat"
+      },
+      "files": [
+        {
+          "source": "themes/dragon_boat/java_menus/theme-dragonboat.yml",
+          "target": "java_menus/theme-dragonboat.yml",
+          "sha256": "f515e88ae60eceda0b59e8c0903eef7d1508d9a01c835ef3d89e2aaa8e3e429e"
+        },
+        {
+          "source": "themes/dragon_boat/dialog_menus/theme-dragonboat.yml",
+          "target": "dialog_menus/theme-dragonboat.yml",
+          "sha256": "67622d8cf74eaa8d5bdf1a4e0ec341359a7dd10d1130a03dbce579ab9c071ebc"
+        },
+        {
+          "source": "themes/dragon_boat/pack/assets/miaomenu/textures/gui/sprites/menu/dragon_boat.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/dragon_boat.png",
+          "sha256": "87b1b44a8349172cb4d417bbdd460f5dd80719151df1c5f6be13cc3e04544c99"
+        },
+        {
+          "source": "themes/dragon_boat/pack/assets/miaomenu/models/menu/dragon_boat.json",
+          "target": "themes/assets/miaomenu/models/menu/dragon_boat.json",
+          "sha256": "20e5209072a153c56bc3b83b8e2d3335cd61cd306fd5783092c0848b8032ea46"
+        }
+      ]
+    },
+    {
+      "id": "qixi",
+      "name": "七夕节",
+      "description": "鹊桥、星河与花园灯影",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-qixi",
+        "dialog": "theme-qixi"
+      },
+      "files": [
+        {
+          "source": "themes/qixi/java_menus/theme-qixi.yml",
+          "target": "java_menus/theme-qixi.yml",
+          "sha256": "f893a6ff0205c72af90fc0385ffc4c56099e61143b5bd26e2e2059f1284f846d"
+        },
+        {
+          "source": "themes/qixi/dialog_menus/theme-qixi.yml",
+          "target": "dialog_menus/theme-qixi.yml",
+          "sha256": "c1279d20de382817ea54d6765965dbedfcc37ab87e6780c061ec52dcfadbc1aa"
+        },
+        {
+          "source": "themes/qixi/pack/assets/miaomenu/textures/gui/sprites/menu/qixi.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/qixi.png",
+          "sha256": "0c5a078bb833a5aec59032243454be6c1a40b87078c086358b64180780b64375"
+        },
+        {
+          "source": "themes/qixi/pack/assets/miaomenu/models/menu/qixi.json",
+          "target": "themes/assets/miaomenu/models/menu/qixi.json",
+          "sha256": "7ae0e476613e493b003ef227d168cc1e352c8fe7044b7fbfeef2239f2b137838"
+        }
+      ]
+    },
+    {
+      "id": "mid_autumn",
+      "name": "中秋节",
+      "description": "满月、月饼与桂香庭院",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-midautumn",
+        "dialog": "theme-midautumn"
+      },
+      "files": [
+        {
+          "source": "themes/mid_autumn/java_menus/theme-midautumn.yml",
+          "target": "java_menus/theme-midautumn.yml",
+          "sha256": "24c2b8557affe9e4f73c67801f7f50b9b825bc408fba3a1e0aad0a8d96d63166"
+        },
+        {
+          "source": "themes/mid_autumn/dialog_menus/theme-midautumn.yml",
+          "target": "dialog_menus/theme-midautumn.yml",
+          "sha256": "ea4a53d1b82f115214853e8cb42aa16ea64d16fdbfc9fe8af5e5da66c8953fb0"
+        },
+        {
+          "source": "themes/mid_autumn/pack/assets/miaomenu/textures/gui/sprites/menu/mid_autumn.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/mid_autumn.png",
+          "sha256": "130a95b730b59b538256f57f9130b7176894ae57db70d2a7211599958349f8a6"
+        },
+        {
+          "source": "themes/mid_autumn/pack/assets/miaomenu/models/menu/mid_autumn.json",
+          "target": "themes/assets/miaomenu/models/menu/mid_autumn.json",
+          "sha256": "bdd67d1a3cecadfc6d70103082d107f20742badf3afc72ecadb074ea3855bb99"
+        }
+      ]
+    },
+    {
+      "id": "april_fools",
+      "name": "愚人节",
+      "description": "彩带、恶作剧与倒转的风车",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-aprilfools",
+        "dialog": "theme-aprilfools"
+      },
+      "files": [
+        {
+          "source": "themes/april_fools/java_menus/theme-aprilfools.yml",
+          "target": "java_menus/theme-aprilfools.yml",
+          "sha256": "f693104c4a33ebb1480bbc05534a985df5486d2c9ade246ea1b25153a14876d1"
+        },
+        {
+          "source": "themes/april_fools/dialog_menus/theme-aprilfools.yml",
+          "target": "dialog_menus/theme-aprilfools.yml",
+          "sha256": "bc91010a393f677aa837b867e8cadfd58818be69857ba0b4f9334f8a355c02a2"
+        },
+        {
+          "source": "themes/april_fools/pack/assets/miaomenu/textures/gui/sprites/menu/april_fools.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/april_fools.png",
+          "sha256": "07b26d066d92c4ed5f5070ca90895c6dcdb32e09374cae17e270be64a51a20b7"
+        },
+        {
+          "source": "themes/april_fools/pack/assets/miaomenu/models/menu/april_fools.json",
+          "target": "themes/assets/miaomenu/models/menu/april_fools.json",
+          "sha256": "496bdd887cfa8ac77444a804378c55b6915b0e678e5a0e528b62588ef5789a27"
+        }
+      ]
+    },
+    {
+      "id": "national_day",
+      "name": "国庆节",
+      "description": "红旗、花坛与城楼烟花",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-nationalday",
+        "dialog": "theme-nationalday"
+      },
+      "files": [
+        {
+          "source": "themes/national_day/java_menus/theme-nationalday.yml",
+          "target": "java_menus/theme-nationalday.yml",
+          "sha256": "5ed53d43e966914429076f76e0ce82baeb1ed32349f7843d865dd8cd432849a0"
+        },
+        {
+          "source": "themes/national_day/dialog_menus/theme-nationalday.yml",
+          "target": "dialog_menus/theme-nationalday.yml",
+          "sha256": "3b95d690d49f84699ec50e309dd72f68deb755209cae3cd1c5bf7ce29829b8e6"
+        },
+        {
+          "source": "themes/national_day/pack/assets/miaomenu/textures/gui/sprites/menu/national_day.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/national_day.png",
+          "sha256": "7b5483d4aecfba7e28e348ec5663dfbb225e154d1cfb5a795d30109b75bb672f"
+        },
+        {
+          "source": "themes/national_day/pack/assets/miaomenu/models/menu/national_day.json",
+          "target": "themes/assets/miaomenu/models/menu/national_day.json",
+          "sha256": "bca2f6f1818aa01de21d663d3eede56b00ba215f6d39324f4e5d597ad3200be4"
+        }
+      ]
+    },
+    {
+      "id": "valentine",
+      "name": "情人节",
+      "description": "玫瑰、心形气球与日落花园",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-valentine",
+        "dialog": "theme-valentine"
+      },
+      "files": [
+        {
+          "source": "themes/valentine/java_menus/theme-valentine.yml",
+          "target": "java_menus/theme-valentine.yml",
+          "sha256": "1bdb30276f70b02bb9c57ffa5ac7a4f5b3f92bbea6e597ef8bba6f4048dfdf1a"
+        },
+        {
+          "source": "themes/valentine/dialog_menus/theme-valentine.yml",
+          "target": "dialog_menus/theme-valentine.yml",
+          "sha256": "355efc84641fac13249b9495e1c70457bf405fd8f04be8dcdc6df5723b5e9947"
+        },
+        {
+          "source": "themes/valentine/pack/assets/miaomenu/textures/gui/sprites/menu/valentine.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/valentine.png",
+          "sha256": "79b40db0633cd15a4d1fb0a677bbb6316b57a4e2cb242766078b24d5fafc8ada"
+        },
+        {
+          "source": "themes/valentine/pack/assets/miaomenu/models/menu/valentine.json",
+          "target": "themes/assets/miaomenu/models/menu/valentine.json",
+          "sha256": "2bcad1fafd15da43cb0e9ace0287d935291ea2b1a2ff991eaff4957fbbd422cd"
+        }
+      ]
+    },
+    {
+      "id": "halloween",
+      "name": "万圣节",
+      "description": "南瓜灯、鬼屋与满月蝙蝠",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-halloween",
+        "dialog": "theme-halloween"
+      },
+      "files": [
+        {
+          "source": "themes/halloween/java_menus/theme-halloween.yml",
+          "target": "java_menus/theme-halloween.yml",
+          "sha256": "aa542e42e66afafffedb397365cd2dea0df422d1dca0a9ab2e96941ac71f7905"
+        },
+        {
+          "source": "themes/halloween/dialog_menus/theme-halloween.yml",
+          "target": "dialog_menus/theme-halloween.yml",
+          "sha256": "b0078e29b6561eb43c91204e15e7bb32f81b65ffd051461f7c9cdce19488b99a"
+        },
+        {
+          "source": "themes/halloween/pack/assets/miaomenu/textures/gui/sprites/menu/halloween.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/halloween.png",
+          "sha256": "b9eb18cc820cb3386ef8225aa23212e5d546fb146225d76d271257c7a4d0da69"
+        },
+        {
+          "source": "themes/halloween/pack/assets/miaomenu/models/menu/halloween.json",
+          "target": "themes/assets/miaomenu/models/menu/halloween.json",
+          "sha256": "830e0958bfe8e6cdaa3898c115f6b155a559f1a51d46a184c072799db853455c"
+        }
+      ]
+    },
+    {
+      "id": "christmas",
+      "name": "圣诞节",
+      "description": "圣诞树、雪村与温暖窗光",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-christmas",
+        "dialog": "theme-christmas"
+      },
+      "files": [
+        {
+          "source": "themes/christmas/java_menus/theme-christmas.yml",
+          "target": "java_menus/theme-christmas.yml",
+          "sha256": "ff82d22bb61bae251fed01ef9a32a4d74d7684946dbea0f9cdfa77b072863bc6"
+        },
+        {
+          "source": "themes/christmas/dialog_menus/theme-christmas.yml",
+          "target": "dialog_menus/theme-christmas.yml",
+          "sha256": "d24f4dd78c55ad8df9663134193a6fa6288866109ddeff932d9452d135d25e45"
+        },
+        {
+          "source": "themes/christmas/pack/assets/miaomenu/textures/gui/sprites/menu/christmas.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/christmas.png",
+          "sha256": "c257b7fb0c454ca8f9aaf0bacb501a560e606f35d849a5cc03209b5ec8d45bad"
+        },
+        {
+          "source": "themes/christmas/pack/assets/miaomenu/models/menu/christmas.json",
+          "target": "themes/assets/miaomenu/models/menu/christmas.json",
+          "sha256": "5dd77ca648155b04c4091160474734ea84bac8e68a628c521610e260943d304a"
+        }
+      ]
+    },
+    {
+      "id": "easter",
+      "name": "复活节",
+      "description": "彩蛋、兔子与春日草地",
+      "version": "1.0.0",
+      "menus": {
+        "java": "theme-easter",
+        "dialog": "theme-easter"
+      },
+      "files": [
+        {
+          "source": "themes/easter/java_menus/theme-easter.yml",
+          "target": "java_menus/theme-easter.yml",
+          "sha256": "ef53f9aa9a2117da5bbf7e1f90786e9fc0849c36644f7be49356c0e06a676950"
+        },
+        {
+          "source": "themes/easter/dialog_menus/theme-easter.yml",
+          "target": "dialog_menus/theme-easter.yml",
+          "sha256": "f3b7be431bfcb07f9b5d0bc5cffce7ea8c796b29ee986ec9d94c947510b0e3af"
+        },
+        {
+          "source": "themes/easter/pack/assets/miaomenu/textures/gui/sprites/menu/easter.png",
+          "target": "themes/assets/miaomenu/textures/gui/sprites/menu/easter.png",
+          "sha256": "941377200d0b6e0355c35e7ee9f6289840eec11987489148d003a21b254bd60e"
+        },
+        {
+          "source": "themes/easter/pack/assets/miaomenu/models/menu/easter.json",
+          "target": "themes/assets/miaomenu/models/menu/easter.json",
+          "sha256": "76200859c7c89ec2ea6d201db1d55e54d1dc93982f56bc814c464ce36ed7dc32"
+        }
+      ]
     }
   ]
 }

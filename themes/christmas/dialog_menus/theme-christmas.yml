@@ -1,0 +1,58 @@
+title: "&a&l圣诞节"
+external_title: "&aMiaoMenu · 圣诞夜"
+can_close_with_escape: true
+pause: false
+after_action: close
+
+layout:
+  type: multi_action
+  columns: 2
+  exit_button:
+    label: "&c关闭"
+    tooltip: "&7回到游戏"
+    width: 100
+
+body:
+  - type: text
+    text: "&f欢迎，&e%player_name%&f。"
+    width: 320
+  - type: item
+    material: "image:christmas"
+    display_name: "&a&l圣诞节"
+    description: "&7节日主题 · 圣诞夜"
+    show_decorations: true
+    show_tooltip: true
+    width: 32
+    height: 32
+
+buttons:
+  - label: "&a送上祝福"
+    item: SPRUCE_SAPLING
+    tooltip: "&7发送一句节日问候"
+    width: 150
+    actions:
+      - "[message] &a圣诞快乐，平安喜乐。"
+
+  - label: "&b打开背包菜单"
+    item: BUNDLE
+    tooltip: "&7打开同名 Java 菜单"
+    width: 150
+    actions:
+      - "[menu] java:theme-christmas"
+
+dynamic_lists:
+  - source: online_players
+    label: "&a玩家: &f$(display)"
+    tooltip: "&7向 $(value) 问好"
+    width: 150
+    limit: 10
+    sort: true
+    empty_label: "&7当前没有其他在线玩家"
+    actions:
+      - "[player] msg $(value) &a圣诞快乐，平安喜乐。"
+
+view_requirement:
+  deny_message: "&c你当前还不能打开这个菜单。"
+  requirements:
+    - type: permission
+      permission: dgeysermenu.use
