@@ -55,34 +55,65 @@ java_menus/  dialog_menus/  bedrock_menus/  themes/  lang/
 
 ## 可用主题
 
+全部主题使用同一套 Minecraft 光影截图风格（体积光、环境光遮蔽、泛光、景深）。
+
 ### 四季主题
 
-| ID | 名称 | 季节 | 图片键 |
-|----|------|------|--------|
-| `spring_sakura` | 春日樱花 | 春 | `miaomenu:menu/spring_sakura` |
-| `summer_beach` | 夏日海滩 | 夏 | `miaomenu:menu/summer_beach` |
-| `autumn_forest` | 秋日森林 | 秋 | `miaomenu:menu/autumn_forest` |
-| `winter_snow` | 冬季飘雪 | 冬 | `miaomenu:menu/winter_snow` |
+| 春日樱花 | 夏日海滩 |
+|:---:|:---:|
+| <img src="preview/spring_sakura.jpg" width="380" alt="春日樱花"> | <img src="preview/summer_beach.jpg" width="380" alt="夏日海滩"> |
+| `spring_sakura` · 富士山、鸟居、樱花石阶 | `summer_beach` · 椰林、分层海浪、热气球 |
+
+| 秋日森林 | 冬季飘雪 |
+|:---:|:---:|
+| <img src="preview/autumn_forest.jpg" width="380" alt="秋日森林"> | <img src="preview/winter_snow.jpg" width="380" alt="冬季飘雪"> |
+| `autumn_forest` · 层叠秋山、西欧小镇、石桥 | `winter_snow` · 峡湾雪山、北欧木屋、圣诞雪橇 |
 
 ### 节日主题
 
-| ID | 名称 | 菜单名 | 画面 |
-|----|------|--------|------|
-| `new_year` | 元旦 | `theme-newyear` | 雪夜广场、跨年钟楼、烟花与礼物 |
-| `spring_festival` | 春节 | `theme-springfest` | 红灯笼、金色牌楼、舞龙、满地爆竹红纸 |
-| `lantern_festival` | 元宵节 | `theme-lantern` | 河灯、石桥花灯、满月星空 |
-| `qingming` | 清明节 | `theme-qingming` | 细雨石径、垂柳、青绿山野 |
-| `dragon_boat` | 端午节 | `theme-dragonboat` | 龙舟竞渡、粽叶与竹蒸笼 |
-| `qixi` | 七夕节 | `theme-qixi` | 月洞门、鹊桥、星河 |
-| `mid_autumn` | 中秋节 | `theme-midautumn` | 满月、月饼茶席、桂花庭院 |
-| `april_fools` | 愚人节 | `theme-aprilfools` | 彩带、恶作剧、倒转风车 |
-| `national_day` | 国庆节 | `theme-nationalday` | 红旗花坛、城楼烟花 |
-| `valentine` | 情人节 | `theme-valentine` | 玫瑰花园、心形气球、日落 |
-| `halloween` | 万圣节 | `theme-halloween` | 南瓜灯、鬼屋、满月蝙蝠 |
-| `christmas` | 圣诞节 | `theme-christmas` | 圣诞树、雪村木屋、极光 |
-| `easter` | 复活节 | `theme-easter` | 彩蛋、兔子、春日草地与教堂 |
+| 元旦 | 春节 | 元宵节 |
+|:---:|:---:|:---:|
+| <img src="preview/new_year.jpg" width="250" alt="元旦"> | <img src="preview/spring_festival.jpg" width="250" alt="春节"> | <img src="preview/lantern_festival.jpg" width="250" alt="元宵节"> |
+| `new_year` · 跨年钟楼与烟花 | `spring_festival` · 红灯笼与舞龙 | `lantern_festival` · 河灯与满月 |
 
-全部主题使用同一套 Minecraft 光影截图风格（体积光、环境光遮蔽、泛光、景深）。
+| 清明节 | 端午节 | 七夕节 |
+|:---:|:---:|:---:|
+| <img src="preview/qingming.jpg" width="250" alt="清明节"> | <img src="preview/dragon_boat.jpg" width="250" alt="端午节"> | <img src="preview/qixi.jpg" width="250" alt="七夕节"> |
+| `qingming` · 细雨垂柳与青绿山野 | `dragon_boat` · 龙舟竞渡与粽叶 | `qixi` · 鹊桥与星河 |
+
+| 中秋节 | 愚人节 | 国庆节 |
+|:---:|:---:|:---:|
+| <img src="preview/mid_autumn.jpg" width="250" alt="中秋节"> | <img src="preview/april_fools.jpg" width="250" alt="愚人节"> | <img src="preview/national_day.jpg" width="250" alt="国庆节"> |
+| `mid_autumn` · 满月与月饼茶席 | `april_fools` · 彩带与倒转风车 | `national_day` · 红旗花坛与城楼 |
+
+| 情人节 | 万圣节 | 圣诞节 | 复活节 |
+|:---:|:---:|:---:|:---:|
+| <img src="preview/valentine.jpg" width="190" alt="情人节"> | <img src="preview/halloween.jpg" width="190" alt="万圣节"> | <img src="preview/christmas.jpg" width="190" alt="圣诞节"> | <img src="preview/easter.jpg" width="190" alt="复活节"> |
+| `valentine` · 玫瑰与心形气球 | `halloween` · 南瓜灯与鬼屋 | `christmas` · 圣诞树与雪村 | `easter` · 彩蛋与兔子 |
+
+### 主题清单速查
+
+| 主题 ID | 名称 | 菜单名 | 图片键 |
+|---------|------|--------|--------|
+| `spring_sakura` | 春日樱花 | `theme-spring` | `miaomenu:menu/spring_sakura` |
+| `summer_beach` | 夏日海滩 | `theme-summer` | `miaomenu:menu/summer_beach` |
+| `autumn_forest` | 秋日森林 | `theme-autumn` | `miaomenu:menu/autumn_forest` |
+| `winter_snow` | 冬季飘雪 | `theme-winter` | `miaomenu:menu/winter_snow` |
+| `new_year` | 元旦 | `theme-newyear` | `miaomenu:menu/new_year` |
+| `spring_festival` | 春节 | `theme-springfest` | `miaomenu:menu/spring_festival` |
+| `lantern_festival` | 元宵节 | `theme-lantern` | `miaomenu:menu/lantern_festival` |
+| `qingming` | 清明节 | `theme-qingming` | `miaomenu:menu/qingming` |
+| `dragon_boat` | 端午节 | `theme-dragonboat` | `miaomenu:menu/dragon_boat` |
+| `qixi` | 七夕节 | `theme-qixi` | `miaomenu:menu/qixi` |
+| `mid_autumn` | 中秋节 | `theme-midautumn` | `miaomenu:menu/mid_autumn` |
+| `april_fools` | 愚人节 | `theme-aprilfools` | `miaomenu:menu/april_fools` |
+| `national_day` | 国庆节 | `theme-nationalday` | `miaomenu:menu/national_day` |
+| `valentine` | 情人节 | `theme-valentine` | `miaomenu:menu/valentine` |
+| `halloween` | 万圣节 | `theme-halloween` | `miaomenu:menu/halloween` |
+| `christmas` | 圣诞节 | `theme-christmas` | `miaomenu:menu/christmas` |
+| `easter` | 复活节 | `theme-easter` | `miaomenu:menu/easter` |
+
+> 预览图位于 `preview/`，与各主题 `pack/` 内的贴图一致，仅缩小以便 README 快速加载。
 
 ## 安装方式
 
