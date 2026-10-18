@@ -24,7 +24,7 @@
         {
           "source": "themes/spring_sakura/pack/assets/miaomenu/textures/gui/sprites/menu/spring_sakura.png",
           "target": "themes/assets/miaomenu/textures/gui/sprites/menu/spring_sakura.png",
-          "sha256": "847cad8668034c1dac233141d21b71b32ffbb2744e6dcdd4a4fce04fca8706ed"
+          "sha256": "79fb0c92c3c56e88cb1b7b1a58086233ca33b360f77d53f6edf9469ab5d1686c"
         },
         {
           "source": "themes/spring_sakura/pack/assets/miaomenu/models/menu/spring_sakura.json",
@@ -56,7 +56,7 @@
         {
           "source": "themes/summer_beach/pack/assets/miaomenu/textures/gui/sprites/menu/summer_beach.png",
           "target": "themes/assets/miaomenu/textures/gui/sprites/menu/summer_beach.png",
-          "sha256": "92f0c7146d2799c94d4aa1c0a4225925c749493e217de3f2024c4e7546389c0e"
+          "sha256": "0c9425d5d5dd1da70d99c3f5dabd5819efe640b3855d03a0a00f71aaf28d1c2a"
         },
         {
           "source": "themes/summer_beach/pack/assets/miaomenu/models/menu/summer_beach.json",
@@ -88,7 +88,7 @@
         {
           "source": "themes/autumn_forest/pack/assets/miaomenu/textures/gui/sprites/menu/autumn_forest.png",
           "target": "themes/assets/miaomenu/textures/gui/sprites/menu/autumn_forest.png",
-          "sha256": "f22418efb3907098255f6c90490a6ec9d151d3b67733101e7d14b16bb1c81b35"
+          "sha256": "608e89d2db8cc9cc2b6dd41dea44a0131c1cb743ec78a2e26cfd9808b8ecab85"
         },
         {
           "source": "themes/autumn_forest/pack/assets/miaomenu/models/menu/autumn_forest.json",
@@ -120,7 +120,7 @@
         {
           "source": "themes/winter_snow/pack/assets/miaomenu/textures/gui/sprites/menu/winter_snow.png",
           "target": "themes/assets/miaomenu/textures/gui/sprites/menu/winter_snow.png",
-          "sha256": "512a79e0e1577517bc9c428a3753e557725fc98c5af2b01af4d0d700e0f1a696"
+          "sha256": "5e06c17e1e61dec5d75fd4502b26943d8d744f1a4f2f95b12e375ba2925082d8"
         },
         {
           "source": "themes/winter_snow/pack/assets/miaomenu/models/menu/winter_snow.json",
